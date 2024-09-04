@@ -8,6 +8,8 @@ export const maxDuration = 90;
 export const runtime = "edge";
 
 const openai = createOpenAI({
+  // Uncomment to use local OpenAI instance
+  baseURL: constants.openAI.localBaseURL,
   apiKey: constants.openAI.apiKey,
   compatibility: "strict", // strict mode, enable when using the OpenAI API
 });

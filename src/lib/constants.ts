@@ -25,6 +25,7 @@ export const constants = Object.freeze({
   },
   // 3rd Party, Integrations
   openAI: {
+    localBaseURL: process.env.LOCAL_AI_BASE_URL,
     apiKey: process.env.OPENAI_API_KEY,
     models: {
       chat: process.env.OPENAI_CHAT_MODEL || "gpt-4o-mini",
