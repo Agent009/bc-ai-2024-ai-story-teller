@@ -1,5 +1,7 @@
-# Encode_AI-and-GPT-Bootcamp-Q3-2024
-Building a Storytelling Application
+# AI StoryTeller App + Local AI Models Support
+
+* Building an AI-Driven Storytelling Application
+* Supports local AI models via [text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 
 ## Instructions / README
 * [Lesson-08 / exercises / 04-Story-Telling.md](https://github.com/Encode-Club-AI-Bootcamp/Generative-AI-Applications/blob/main/Lesson-08/exercises/04-Story-Telling.md)
